@@ -1,0 +1,16 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: Cobalt Sorter
+
+requirements: [
+  cobalt/4
+] 
+
+research: {
+    parent: cobalt-router
+    requirements: [
+        cobalt/12
+    ]
+}

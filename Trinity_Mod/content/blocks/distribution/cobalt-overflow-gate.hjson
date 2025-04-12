@@ -1,0 +1,15 @@
+type: OverflowGate
+category: distribution
+name: Cobalt Overflow Gate
+health: 40
+
+requirements: [
+  cobalt/6
+] 
+
+  research: {
+    parent: cobalt-sorter
+    requirements: [
+        cobalt/10
+    ]
+} 

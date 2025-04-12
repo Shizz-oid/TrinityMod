@@ -1,0 +1,17 @@
+  localizedName: Cobalt
+  name: cobalt
+  explosiveness: 0      //Взрывоопасность
+  flammability: 0     //Воспламеняемость
+  radioactivity: 0      //Радиактивность
+  charge: 0     //Заряд
+  color: 4c5866       //Цвет
+  cost: 1     //Сколько стоит (В ванильной игре не используется)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  //К чему прикреплён
+  research: {
+    parent: Arcone
+  }

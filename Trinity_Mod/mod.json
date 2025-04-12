@@ -1,0 +1,8 @@
+minGameVersion: 146 //Минимальная версия игры для работы мода
+name: "emiramod" //Название хранящееся в файле игры
+subtitle: "wake up" //Подзаголовок
+displayName: "Emira mod" //Отображаемое название мода
+description: "My first Mindustry mod" //Описание мода
+author: "_Shizza" //Автор мода (создатель)
+version: "0.0.2" //Версия мода
+hidden: true //Доступен ли в мультиплеере (true - доступен, false - недоступен)

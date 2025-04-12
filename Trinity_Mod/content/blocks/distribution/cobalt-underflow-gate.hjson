@@ -1,0 +1,16 @@
+type: OverflowGate
+category: distribution
+name: Cobalt Underflow Gate
+health: 40
+invert: true
+
+requirements: [
+  cobalt/6
+] 
+
+  research: {
+    parent: cobalt-overflow-gate
+    requirements: [
+        cobalt/10
+    ]
+} 

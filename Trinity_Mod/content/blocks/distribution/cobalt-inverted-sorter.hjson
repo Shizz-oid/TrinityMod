@@ -1,0 +1,17 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: Cobalt Inverted Sorter
+invert: true
+
+requirements: [
+  cobalt/4
+] 
+
+research: {
+    parent: cobalt-sorter
+    requirements: [
+        cobalt/12
+    ]
+}

@@ -1,0 +1,22 @@
+type: Junction
+category: distribution
+size: 1
+health: 30
+name: Cobalt Junction
+
+//Скорость и сколько вмещает предметов (10 шт)
+speed: 0.1
+capacity: 10
+
+//Затраты на постройку
+requirements: [
+    cobalt/2
+]
+
+//К чему привязано, затраты на исследование
+research: {
+    parent: cobalt-conveyor
+    requirements: [
+        cobalt/15
+    ]
+}
